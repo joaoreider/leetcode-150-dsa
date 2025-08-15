@@ -8,4 +8,4 @@ def nameFile(text: str) -> str:
     text = text.strip('-') + '.py'
     return text
 
-print(nameFile("Evaluate Reverse Polish Notation"))
+print(nameFile("Valid Palindrome"))
