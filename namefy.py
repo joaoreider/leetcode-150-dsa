@@ -8,4 +8,4 @@ def nameFile(text: str) -> str:
     text = text.strip('-') + '.py'
     return text
 
-print(nameFile("Valid Palindrome"))
+print(nameFile("Two Integer Sum II"))
