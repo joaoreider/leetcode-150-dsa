@@ -5,7 +5,7 @@ class Solution:
         water = 0
         while l < r:
             currWater = (r-l) * min(heights[l], heights[r])
-            if currWater > water:
+            if currWater > water: 
                 water = currWater
             
             if heights[l] >= heights[r]:

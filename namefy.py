@@ -8,4 +8,4 @@ def nameFile(text: str) -> str:
     text = text.strip('-') + '.py'
     return text
 
-print(nameFile("Container With Most Water"))
+print(nameFile("Trapping Rain Water")) 
